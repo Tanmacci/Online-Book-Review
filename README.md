@@ -15,5 +15,21 @@ It also demonstrates asynchronous programming in JavaScript (callbacks, promises
   - Task 12: Search by Author (Async/Await)
 
 ---
-
 ## 📂 Project Structure
+
+```text
+book-review-app/
+├── server.js
+├── models/
+│   └── booksdb.js
+├── routes/
+│   ├── general.js
+│   └── auth.js
+├── middleware/
+│   └── authMiddleware.js
+├── services/
+│   └── bookService.js
+└── controllers/
+    ├── bookController.js
+    └── authController.js
+
